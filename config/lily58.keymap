@@ -23,13 +23,6 @@
             bindings = <&kp A &kp U &kp S &kp T &kp I &kp N>;
             label = "UNIX_NAME";
         };
-
-        alt_tabber: alt_tabber {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LA(TAB) &kp>;
-            label = "ALT_TABBER";
-        };
     };
 
     keymap {
